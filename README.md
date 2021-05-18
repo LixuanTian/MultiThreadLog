@@ -3,16 +3,16 @@
 日志库大体分为**前段**和**后端**两部分。前段是供应用程序使用的接口（API），并生成日志的消息；后端则负责把日志消息写到目的地。
 
 ## 安装使用
-Requires:
-  GCC >= 4.7
-  Boost (for boost::any only.)
-Install required packages:
-  # Ubuntu
-  $ sudo apt install g++ cmake make libboost-dev
-To build, run:
-  $ mkdir build
-  $ cd build/
-  $ cmake ../
+Requires:  
+  GCC >= 4.7  
+  Boost (for boost::any only.)  
+Install required packages:   
+Ubuntu：  
+  $ sudo apt install g++ cmake make libboost-dev  
+To build, run:  
+  $ mkdir build  
+  $ cd build/  
+  $ cmake ../  
   $ make
 
 ## 功能需求
