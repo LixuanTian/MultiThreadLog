@@ -80,5 +80,6 @@ muduo日志库使用的是**双缓冲技术**，基本思路是准备两块buffe
 |    90    |      103.4MB      |    0.403     |
 |   100    |      114.9MB      |    0.420     |
 
-
+# 参考链接
+http://github.com/chenshuo/muduo
 
