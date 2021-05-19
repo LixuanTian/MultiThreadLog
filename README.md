@@ -80,6 +80,15 @@ muduo日志库使用的是**双缓冲技术**，基本思路是准备两块buffe
 |    90    |      103.4MB      |    0.403     |
 |   100    |      114.9MB      |    0.420     |
 
+## 推荐源码阅读顺序 
+时间处理相关: Timestamp Date TimeZone  
+原子类型和异常: Atomic Exception  
+多线程互斥量、条件变量以及同步相关: Mutex Condition CountDownLatch  
+线程相关： CurrentThread Thread ThreadLocal ThreadPool  
+单例模式相关: Singleton TreadLocalSingleton  
+日志相关: LogStream Logging FileUtil LogFile AsyncLogging
+其他
+
 # 参考链接
 http://github.com/chenshuo/muduo
 
