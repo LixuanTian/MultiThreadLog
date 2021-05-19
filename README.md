@@ -86,7 +86,7 @@ muduo日志库使用的是**双缓冲技术**，基本思路是准备两块buffe
 多线程互斥量、条件变量以及同步相关: Mutex Condition CountDownLatch  
 线程相关： CurrentThread Thread ThreadLocal ThreadPool  
 单例模式相关: Singleton TreadLocalSingleton  
-日志相关: LogStream Logging FileUtil LogFile AsyncLogging
+日志相关: LogStream Logging FileUtil LogFile AsyncLogging  
 其他
 
 # 参考链接
